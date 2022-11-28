@@ -1,3 +1,6 @@
+# Преобразовать информацию их строки в словари, с использование функции найти макс. продажи
+
+
 def create_dict(string):
     list_from_str = string.split()
     dict_from_list = {f'{list_from_str[0]}': list_from_str[1:6], f'{list_from_str[6]}': list_from_str[7:]}
